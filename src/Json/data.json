@@ -46,13 +46,5 @@
         "image": "https://i.ibb.co/JthSSCr/Git-logo.png",
         "background":"git",
         "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Natoque penatibus et magnis dis parturient. Felis eget nunc lobortis mattis."
-    },
-    {
-        "id": 7,
-        "title": "Sass", 
-        "icon": "https://ipfs.io/ipfs/QmdiAfKqrexHFajEqsEC31TJH3Nor7f1jsjfHXjsD1t34M",
-        "image": "https://i.ibb.co/4RvzxS0/java-14-logo-png-transparent.png",
-        "background":"sass",
-        "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Natoque penatibus et magnis dis parturient. Felis eget nunc lobortis mattis."
     }
 ]

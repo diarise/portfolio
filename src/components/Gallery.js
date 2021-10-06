@@ -1,23 +1,8 @@
 import * as React from 'react';
 import Masonry from 'react-masonry-component';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import Data from "../Json/data";
 import "./style.css";
-
-const icons = require("@fortawesome/free-solid-svg-icons");
-
-const myJson = {
-    Flow: [
-        {
-            // icon: "faReact",
-            // icon({ prefix: 'fas', iconName: 'camera' })
-        }
-    ]
-};
-
-
-const camera = ({ prefix: 'fas', iconName: 'camera' })
 
 const masonryOptions = {
     transitionDuration: 0
@@ -34,7 +19,7 @@ function Gallery() {
             <div className="container pt-5 pb-5">
                 <div class="row mb-4">
                     <div class="col">
-                        <h2 class="mb-0">My Skills</h2>
+                        <h2 class="mb-0">My Technical Skills</h2>
                     </div>
                 </div>
                 <Masonry
@@ -54,7 +39,6 @@ function Gallery() {
                                     </div>
                                     <div className="card-body">
                                         <h6 className="card-title">{post.title}</h6>
-                                        {/* <p className="card-text">{post.description}</p> */}
                                     </div>
                                 </div>
                             </div>

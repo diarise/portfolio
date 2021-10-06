@@ -1,65 +1,42 @@
 [
     {
         "id": 1,
-        "title": "Project 1",
+        "title": "Server-Side Web App: Little Amazon",
         "image": "https://i.ibb.co/9qRdq00/Screen-Shot-2021-09-25-at-4-14-19-PM.png",
         "icon": "https://i.ibb.co/HqJBRTD/react-logo-png-transparent.png",
         "github": "https://github.com/lenapan/Project1",
         "externalLink": "https://lenapan.github.io/Project1/",
-        "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Natoque penatibus et magnis dis parturient. Felis eget nunc lobortis mattis."
+        "description": "As a user, I want to be able to search, place an order for any item. I want to have an idea of how much it costs...",
+        "used": "Figma, HTML, CSS, BootStrap, Javascript, JSON, JQuery, AJAX, and Server-Side API"
     },
     {
         "id": 2,
-        "title": "Project 2",
-        "image": "https://i.ibb.co/ySHfgcf/css3-logo-png-transparent.png",
+        "title": "Vanilla JavaScript: Password Generator",
+        "image": "https://i.ibb.co/tJ205VT/03-javascript-homework-demo.png",
         "icon": "https://i.ibb.co/ySHfgcf/css3-logo-png-transparent.png",
-        "github": "https://github.com/lenapan/Project1",
-        "externalLink": "https://lenapan.github.io/Project1/",
-        "description": "Consectetur adipiscing elit duis tristique. Nunc mattis enim ut tellus elementum."
+        "github": "https://github.com/diarise/Generator-Your-Password-",
+        "externalLink": "https://diarise.github.io/Generator-Your-Password-/",
+        "description": "AS an employee with access to sensitive data. I want to randomly generate a password that meets certain criteria...",
+        "used": "Used: JavaScript"
     },
     {
         "id": 3,
-        "title": "Project 3",
-        "image": "https://i.ibb.co/6yc68my/javascript-logo-png-transparent.png",
+        "title": "Third-Party APIs: Work Day Scheduler",
+        "image": "https://i.ibb.co/svCh1G4/Screen-Shot-2021-10-05-at-11-03-58-PM.png",
         "icon": "https://i.ibb.co/ySHfgcf/css3-logo-png-transparent.png",
-        "github": "https://github.com/lenapan/Project1",
-        "externalLink": "https://lenapan.github.io/Project1/",
-        "description": "Nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum. Massa sed elementum tempus egestas sed sed risus pretium quam. Enim ut tellus elementum sagittis vitae. Purus viverra accumsan in nisl."
+        "github": "https://github.com/diarise/Work-Day-Scheduler",
+        "externalLink": "https://diarise.github.io/Work-Day-Scheduler/",
+        "description": "AS an employee with a busy schedule. I want to add important events to a daily planner. SO that I can manage my time...",
+        "used": "Used: HTML, CSS, JavaScript, jQuery and Moment.js library "
     },
     {
         "id": 4,
-        "title": "Project 4",
-        "image": "https://i.ibb.co/jR0Tm81/nodejs-logo-png-transparent.png",
+        "title": "Server-Side APIs: Weather Dashboard",
+        "image": "https://i.ibb.co/gPwXHCj/06-server-side-apis-homework-demo.png",
         "icon": "https://i.ibb.co/ySHfgcf/css3-logo-png-transparent.png",
-        "github": "https://github.com/lenapan/Project1",
-        "externalLink": "https://lenapan.github.io/Project1/",
-        "description": "Ullamcorper malesuada proin libero nunc consequat interdum varius sit."
-    },
-    {
-        "id": 5,
-        "title": "Project 5",
-        "image": "https://i.ibb.co/HqJBRTD/react-logo-png-transparent.png",
-        "icon": "https://i.ibb.co/ySHfgcf/css3-logo-png-transparent.png",
-        "github": "https://github.com/lenapan/Project1",
-        "externalLink": "https://lenapan.github.io/Project1/",
-        "description": "Gravida rutrum quisque non tellus. Et ligula ullamcorper malesuada proin libero nunc consequat interdum varius. Sit amet consectetur adipiscing elit duis tristique sollicitudin. Egestas congue quisque egestas diam in arcu cursus euismod quis. Odio ut sem nulla pharetra diam. Tellus elementum sagittis vitae et leo duis ut diam quam. Aenean euismod elementum nisi quis eleifend quam adipiscing vitae proin. Iaculis nunc sed augue lacus viverra."
-    },
-    {
-        "id": 6,
-        "title": "Project 6", 
-        "image": "https://i.ibb.co/JthSSCr/Git-logo.png",
-        "icon": "https://i.ibb.co/ySHfgcf/css3-logo-png-transparent.png",
-        "github": "https://github.com/lenapan/Project1",
-        "externalLink": "https://lenapan.github.io/Project1/",
-        "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Natoque penatibus et magnis dis parturient. Felis eget nunc lobortis mattis."
-    },
-    {
-        "id": 7,
-        "title": "Project 7", 
-        "image": "https://i.ibb.co/4RvzxS0/java-14-logo-png-transparent.png",
-        "icon": "https://i.ibb.co/ySHfgcf/css3-logo-png-transparent.png",
-        "github": "https://github.com/lenapan/Project1",
-        "externalLink": "https://lenapan.github.io/Project1/",
-        "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Natoque penatibus et magnis dis parturient. Felis eget nunc lobortis mattis."
+        "github": "https://github.com/diarise/Weather-Dashboard",
+        "externalLink": "https://diarise.github.io/Weather-Dashboard/",
+        "description": "AS a traveler, I want to see the weather outlook for multiple cities. So that I can plan a trip accordingly.",
+        "used": "Used: JavaScript, jQuery and Weather API"
     }
 ]
