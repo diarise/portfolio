@@ -9,8 +9,9 @@ function Header(props) {
                 <div className="container">
                     <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                         <a className="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-                            {/* <svg className="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap" /></svg> */}
-                            Daouda
+                            <Link to="/" className={window.location.pathname === "/" ? "nav-link text-white" : "nav-link"}
+                            >
+                                <img className="logo" src="https://diarise.github.io/Bootstrap-Portfolio/images/logo.png" alt="" /></Link>
                         </a>
 
                         <ul className="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
@@ -32,7 +33,7 @@ function Header(props) {
                                     to="/about"
                                     className={window.location.pathname === "/about" ? "nav-link text-white" : "nav-link"}
                                 >
-                                    <FontAwesomeIcon className="bi d-block mx-auto mb-1" icon="tasks" />
+                                    <FontAwesomeIcon className="bi d-block mx-auto mb-1" icon="portrait" />
                                     About Me
                                 </Link>
                             </li>
@@ -41,7 +42,7 @@ function Header(props) {
                                     to="/skills"
                                     className={window.location.pathname === "/skills" ? "nav-link text-white" : "nav-link"}
                                 >
-                                    <FontAwesomeIcon className="bi d-block mx-auto mb-1" icon="tasks" />
+                                    <FontAwesomeIcon className="bi d-block mx-auto mb-1" icon="code" />
                                     My Skills
                                 </Link>
                             </li>
@@ -59,13 +60,13 @@ function Header(props) {
                                     to="/contact"
                                     className={window.location.pathname === "/contact" ? "nav-link text-white" : "nav-link"}
                                 >
-                                    <FontAwesomeIcon className="bi d-block mx-auto mb-1" icon="tasks" />
+                                    <FontAwesomeIcon className="bi d-block mx-auto mb-1" icon="envelope" />
                                     Contact
                                 </Link>
                             </li>
                             <li>
-                                <a className="nav-link text-white">
-                                    <FontAwesomeIcon className="bi d-block mx-auto mb-1" icon="envelope" />
+                                <a href="https://drive.google.com/file/d/1He-LWwzGgWKlqyfE-83ke2X8qLUcEeeb/view?usp=sharing" target="_blank" download className="nav-link text-white">
+                                    <FontAwesomeIcon className="bi d-block mx-auto mb-1" icon={['fas', 'download']} />
                                     Resume
                                 </a>
                             </li>

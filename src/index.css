@@ -615,3 +615,21 @@ textarea.input100 {
     right: 10px;
   }
 }
+
+.hero-pic-wrapper{
+  position: relative;
+}
+.hero-pic{
+  position: absolute;
+  bottom: 0;
+}
+.hero-btn{
+  font-size: 3rem;
+  color: #264653!important;
+}
+.nav-link{
+  color: #2a9d8f!important;
+}
+.logo{
+  width: 40px;
+}
